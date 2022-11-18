@@ -1,0 +1,1174 @@
+State,Year,GDP 
+Alabama,1999,3.6
+Alabama,2000,1.5
+Alabama,2001,0.2
+Alabama,2002,2.3
+Alabama,2003,2.9
+Alabama,2004,7
+Alabama,2005,4.4
+Alabama,2006,1.6
+Alabama,2007,0.9
+Alabama,2008,1.1
+Alabama,2009,3.3
+Alabama,2010,2.2
+Alabama,2011,1.6
+Alabama,2012,0.9
+Alabama,2013,1.1
+Alabama,2014,0.8
+Alabama,2015,0.8
+Alabama,2016,1.5
+Alabama,2017,1.4
+Alabama,2018,1.7
+Alabama,2019,1.5
+Alabama,2020,1.7
+Alabama,2021,5.1
+Alaska,1999,1.2
+Alaska,2000,2.9
+Alaska,2001,3.9
+Alaska,2002,4.9
+Alaska,2003,1.5
+Alaska,2004,4
+Alaska,2005,3.6
+Alaska,2006,7.7
+Alaska,2007,5.1
+Alaska,2008,0.9
+Alaska,2009,9.7
+Alaska,2010,2.9
+Alaska,2011,1.2
+Alaska,2012,5.4
+Alaska,2013,5
+Alaska,2014,2.1
+Alaska,2015,1
+Alaska,2016,0.9
+Alaska,2017,0.1
+Alaska,2018,1.8
+Alaska,2019,0.2
+Alaska,2020,5.1
+Alaska,2021,0.3
+Arizona,1999,8.5
+Arizona,2000,4.9
+Arizona,2001,2.3
+Arizona,2002,3.5
+Arizona,2003,6.1
+Arizona,2004,4.4
+Arizona,2005,7.4
+Arizona,2006,4.5
+Arizona,2007,3.3
+Arizona,2008,0.9
+Arizona,2009,8.3
+Arizona,2010,1.1
+Arizona,2011,2.2
+Arizona,2012,2
+Arizona,2013,0.8
+Arizona,2014,1.3
+Arizona,2015,2
+Arizona,2016,3.1
+Arizona,2017,4.2
+Arizona,2018,3.7
+Arizona,2019,3.4
+Arizona,2020,0.5
+Arizona,2021,6.3
+Arkansas,1999,5.4
+Arkansas,2000,0.8
+Arkansas,2001,0.1
+Arkansas,2002,3.5
+Arkansas,2003,4.3
+Arkansas,2004,4.9
+Arkansas,2005,4.2
+Arkansas,2006,2.3
+Arkansas,2007,0.8
+Arkansas,2008,1
+Arkansas,2009,3.3
+Arkansas,2010,2.6
+Arkansas,2011,2.1
+Arkansas,2012,0.5
+Arkansas,2013,2.1
+Arkansas,2014,0.9
+Arkansas,2015,0.6
+Arkansas,2016,0.4
+Arkansas,2017,0.9
+Arkansas,2018,1.8
+Arkansas,2019,1.1
+Arkansas,2020,0.1
+Arkansas,2021,5.2
+California,1999,7.2
+California,2000,7.7
+California,2001,0.2
+California,2002,1.8
+California,2003,3.9
+California,2004,3.4
+California,2005,4.1
+California,2006,3.9
+California,2007,1.9
+California,2008,1
+California,2009,3.2
+California,2010,2
+California,2011,1.4
+California,2012,2.4
+California,2013,3.1
+California,2014,3.5
+California,2015,4.5
+California,2016,3
+California,2017,4.5
+California,2018,4.2
+California,2019,3.2
+California,2020,2.3
+California,2021,7.8
+Colorado,1999,7.3
+Colorado,2000,7.6
+Colorado,2001,1.5
+Colorado,2002,0.2
+Colorado,2003,1
+Colorado,2004,1.2
+Colorado,2005,4.5
+Colorado,2006,2.3
+Colorado,2007,3.7
+Colorado,2008,1.5
+Colorado,2009,2.2
+Colorado,2010,1.1
+Colorado,2011,1.4
+Colorado,2012,1.9
+Colorado,2013,3.4
+Colorado,2014,4.3
+Colorado,2015,4.6
+Colorado,2016,2.1
+Colorado,2017,3.4
+Colorado,2018,3.9
+Colorado,2019,4.6
+Colorado,2020,1.4
+Colorado,2021,5.8
+Connecticut,1999,3
+Connecticut,2000,6.8
+Connecticut,2001,0.9
+Connecticut,2002,0.7
+Connecticut,2003,1.2
+Connecticut,2004,6.5
+Connecticut,2005,2.2
+Connecticut,2006,4.1
+Connecticut,2007,3.9
+Connecticut,2008,0.1
+Connecticut,2009,5
+Connecticut,2010,0.2
+Connecticut,2011,2.4
+Connecticut,2012,1
+Connecticut,2013,2
+Connecticut,2014,0.1
+Connecticut,2015,2.9
+Connecticut,2016,0.2
+Connecticut,2017,1.5
+Connecticut,2018,0.8
+Connecticut,2019,1
+Connecticut,2020,6.5
+Connecticut,2021,4.8
+Delaware,1999,7.5
+Delaware,2000,4.3
+Delaware,2001,3.2
+Delaware,2002,3.1
+Delaware,2003,1.4
+Delaware,2004,4.8
+Delaware,2005,1.2
+Delaware,2006,2.2
+Delaware,2007,0.2
+Delaware,2008,3
+Delaware,2009,4.9
+Delaware,2010,1.5
+Delaware,2011,3.9
+Delaware,2012,0.9
+Delaware,2013,3.4
+Delaware,2014,7.8
+Delaware,2015,2.9
+Delaware,2016,5.7
+Delaware,2017,4.2
+Delaware,2018,1.8
+Delaware,2019,4.4
+Delaware,2020,2.9
+Delaware,2021,3.4
+District of Columbia,1999,4.4
+District of Columbia,2000,0.7
+District of Columbia,2001,3.6
+District of Columbia,2002,3.1
+District of Columbia,2003,2
+District of Columbia,2004,4.9
+District of Columbia,2005,2.1
+District of Columbia,2006,0.3
+District of Columbia,2007,2.9
+District of Columbia,2008,3.9
+District of Columbia,2009,0.8
+District of Columbia,2010,3.9
+District of Columbia,2011,1.5
+District of Columbia,2012,0.5
+District of Columbia,2013,0.2
+District of Columbia,2014,2
+District of Columbia,2015,2
+District of Columbia,2016,2.4
+District of Columbia,2017,0.9
+District of Columbia,2018,2.4
+District of Columbia,2019,0.7
+District of Columbia,2020,1.7
+District of Columbia,2021,3.7
+Florida,1999,4.6
+Florida,2000,4.5
+Florida,2001,2.8
+Florida,2002,4.4
+Florida,2003,4.7
+Florida,2004,6.5
+Florida,2005,6.1
+Florida,2006,3
+Florida,2007,1.2
+Florida,2008,4
+Florida,2009,5.8
+Florida,2010,0.8
+Florida,2011,0.4
+Florida,2012,0.8
+Florida,2013,2.1
+Florida,2014,2.8
+Florida,2015,4.3
+Florida,2016,3.4
+Florida,2017,3.5
+Florida,2018,3.2
+Florida,2019,2.6
+Florida,2020,1.6
+Florida,2021,8.4
+Georgia,1999,7
+Georgia,2000,3.3
+Georgia,2001,1.2
+Georgia,2002,1.3
+Georgia,2003,3.1
+Georgia,2004,4.1
+Georgia,2005,4.3
+Georgia,2006,1.3
+Georgia,2007,0.6
+Georgia,2008,2.2
+Georgia,2009,3.8
+Georgia,2010,1.2
+Georgia,2011,1.8
+Georgia,2012,1.4
+Georgia,2013,1.6
+Georgia,2014,3.3
+Georgia,2015,4.1
+Georgia,2016,3.6
+Georgia,2017,3.4
+Georgia,2018,2.8
+Georgia,2019,3.5
+Georgia,2020,3.5
+Georgia,2021,7
+Hawaii,1999,0.8
+Hawaii,2000,1.9
+Hawaii,2001,0.4
+Hawaii,2002,2.4
+Hawaii,2003,5.2
+Hawaii,2004,5.6
+Hawaii,2005,6
+Hawaii,2006,2.4
+Hawaii,2007,1.9
+Hawaii,2008,0.5
+Hawaii,2009,3.6
+Hawaii,2010,2.5
+Hawaii,2011,1.5
+Hawaii,2012,1.8
+Hawaii,2013,1.6
+Hawaii,2014,0.6
+Hawaii,2015,3.2
+Hawaii,2016,1.9
+Hawaii,2017,2.1
+Hawaii,2018,1.1
+Hawaii,2019,0.8
+Hawaii,2020,11.5
+Hawaii,2021,6.3
+Idaho,1999,9.6
+Idaho,2000,11.3
+Idaho,2001,2.6
+Idaho,2002,2.1
+Idaho,2003,3.3
+Idaho,2004,6.6
+Idaho,2005,8.2
+Idaho,2006,2.8
+Idaho,2007,1.8
+Idaho,2008,2.8
+Idaho,2009,4.9
+Idaho,2010,1.7
+Idaho,2011,0.1
+Idaho,2012,0.2
+Idaho,2013,4
+Idaho,2014,3
+Idaho,2015,1
+Idaho,2016,3.8
+Idaho,2017,2.2
+Idaho,2018,5.9
+Idaho,2019,4.7
+Idaho,2020,1.3
+Idaho,2021,6.6
+Illinois,1999,3.8
+Illinois,2000,3.7
+Illinois,2001,0.2
+Illinois,2002,0.8
+Illinois,2003,1.7
+Illinois,2004,2.8
+Illinois,2005,1.6
+Illinois,2006,2.5
+Illinois,2007,1.1
+Illinois,2008,0.8
+Illinois,2009,2.6
+Illinois,2010,1.5
+Illinois,2011,1.9
+Illinois,2012,2.1
+Illinois,2013,0
+Illinois,2014,2.1
+Illinois,2015,1.4
+Illinois,2016,0.3
+Illinois,2017,0.5
+Illinois,2018,2.5
+Illinois,2019,0.6
+Illinois,2020,5.4
+Illinois,2021,6.2
+Indiana,1999,3.4
+Indiana,2000,3.9
+Indiana,2001,1.8
+Indiana,2002,2.3
+Indiana,2003,4.4
+Indiana,2004,3.8
+Indiana,2005,0.9
+Indiana,2006,2
+Indiana,2007,2.7
+Indiana,2008,1
+Indiana,2009,7.1
+Indiana,2010,6.4
+Indiana,2011,0.5
+Indiana,2012,0.5
+Indiana,2013,2.3
+Indiana,2014,3.1
+Indiana,2015,1
+Indiana,2016,1.9
+Indiana,2017,1.7
+Indiana,2018,3.5
+Indiana,2019,0.5
+Indiana,2020,3.1
+Indiana,2021,5.8
+Iowa,1999,2.1
+Iowa,2000,4.6
+Iowa,2001,1.2
+Iowa,2002,2.4
+Iowa,2003,4.6
+Iowa,2004,8.5
+Iowa,2005,3.3
+Iowa,2006,1.4
+Iowa,2007,4.3
+Iowa,2008,1.9
+Iowa,2009,2.5
+Iowa,2010,2.7
+Iowa,2011,1.5
+Iowa,2012,4
+Iowa,2013,0
+Iowa,2014,5.1
+Iowa,2015,2.7
+Iowa,2016,0.4
+Iowa,2017,0.3
+Iowa,2018,1.6
+Iowa,2019,0.1
+Iowa,2020,1.6
+Iowa,2021,5.1
+Kansas,1999,2.6
+Kansas,2000,2.7
+Kansas,2001,0.3
+Kansas,2002,1.6
+Kansas,2003,1.7
+Kansas,2004,1
+Kansas,2005,3.8
+Kansas,2006,5.2
+Kansas,2007,5.2
+Kansas,2008,1.8
+Kansas,2009,3.8
+Kansas,2010,1.1
+Kansas,2011,2.8
+Kansas,2012,1.6
+Kansas,2013,0.1
+Kansas,2014,2.6
+Kansas,2015,2.4
+Kansas,2016,3.3
+Kansas,2017,1.2
+Kansas,2018,2.1
+Kansas,2019,0.7
+Kansas,2020,0.9
+Kansas,2021,2.5
+Kentucky,1999,3.2
+Kentucky,2000,2.6
+Kentucky,2001,0.2
+Kentucky,2002,2.5
+Kentucky,2003,2.8
+Kentucky,2004,2.9
+Kentucky,2005,4
+Kentucky,2006,2.6
+Kentucky,2007,0.7
+Kentucky,2008,0.3
+Kentucky,2009,4.1
+Kentucky,2010,4.2
+Kentucky,2011,1.1
+Kentucky,2012,1.4
+Kentucky,2013,1.9
+Kentucky,2014,0
+Kentucky,2015,0.8
+Kentucky,2016,0.7
+Kentucky,2017,1
+Kentucky,2018,1.1
+Kentucky,2019,2.7
+Kentucky,2020,2.4
+Kentucky,2021,5
+Louisiana,1999,2.1
+Louisiana,2000,2.9
+Louisiana,2001,1.4
+Louisiana,2002,2.1
+Louisiana,2003,4.1
+Louisiana,2004,4.9
+Louisiana,2005,6.5
+Louisiana,2006,0.9
+Louisiana,2007,6.2
+Louisiana,2008,0.8
+Louisiana,2009,1.8
+Louisiana,2010,4.4
+Louisiana,2011,4.8
+Louisiana,2012,0.2
+Louisiana,2013,2.9
+Louisiana,2014,3
+Louisiana,2015,1
+Louisiana,2016,2
+Louisiana,2017,2.2
+Louisiana,2018,1.7
+Louisiana,2019,0.1
+Louisiana,2020,7.9
+Louisiana,2021,1.3
+Maine,1999,5
+Maine,2000,4.6
+Maine,2001,2
+Maine,2002,2.9
+Maine,2003,2.6
+Maine,2004,3.9
+Maine,2005,1.2
+Maine,2006,0.9
+Maine,2007,0.2
+Maine,2008,1.3
+Maine,2009,1.9
+Maine,2010,1.3
+Maine,2011,1
+Maine,2012,0.2
+Maine,2013,0.8
+Maine,2014,1.5
+Maine,2015,0.7
+Maine,2016,2.1
+Maine,2017,1.6
+Maine,2018,2.9
+Maine,2019,2.5
+Maine,2020,0.6
+Maine,2021,6.2
+Maryland,1999,3.9
+Maryland,2000,4.1
+Maryland,2001,4.3
+Maryland,2002,3.4
+Maryland,2003,2.9
+Maryland,2004,4.3
+Maryland,2005,3.9
+Maryland,2006,1.4
+Maryland,2007,0.3
+Maryland,2008,2.6
+Maryland,2009,1.1
+Maryland,2010,4.5
+Maryland,2011,2.2
+Maryland,2012,0
+Maryland,2013,0.5
+Maryland,2014,1.6
+Maryland,2015,2.5
+Maryland,2016,3.4
+Maryland,2017,1.7
+Maryland,2018,0.5
+Maryland,2019,0
+Maryland,2020,4.3
+Maryland,2021,4.6
+Massachusetts,1999,5.3
+Massachusetts,2000,8
+Massachusetts,2001,1.3
+Massachusetts,2002,0
+Massachusetts,2003,1.8
+Massachusetts,2004,2.7
+Massachusetts,2005,2
+Massachusetts,2006,2.3
+Massachusetts,2007,2.8
+Massachusetts,2008,2.1
+Massachusetts,2009,1.9
+Massachusetts,2010,4.6
+Massachusetts,2011,2
+Massachusetts,2012,1.9
+Massachusetts,2013,0.4
+Massachusetts,2014,1.5
+Massachusetts,2015,3.7
+Massachusetts,2016,1.6
+Massachusetts,2017,1.6
+Massachusetts,2018,3.9
+Massachusetts,2019,2.5
+Massachusetts,2020,2.8
+Massachusetts,2021,6.6
+Michigan,1999,5.9
+Michigan,2000,2
+Michigan,2001,3
+Michigan,2002,2.8
+Michigan,2003,1.6
+Michigan,2004,1.2
+Michigan,2005,1.8
+Michigan,2006,1.6
+Michigan,2007,0.6
+Michigan,2008,5.8
+Michigan,2009,9
+Michigan,2010,5.5
+Michigan,2011,2.6
+Michigan,2012,1.9
+Michigan,2013,1.4
+Michigan,2014,1.3
+Michigan,2015,2.2
+Michigan,2016,1.9
+Michigan,2017,1.2
+Michigan,2018,2
+Michigan,2019,0.1
+Michigan,2020,4
+Michigan,2021,7.4
+Minnesota,1999,3.8
+Minnesota,2000,6.8
+Minnesota,2001,0.1
+Minnesota,2002,2.4
+Minnesota,2003,4.2
+Minnesota,2004,4.3
+Minnesota,2005,3.3
+Minnesota,2006,0.1
+Minnesota,2007,0.7
+Minnesota,2008,0.7
+Minnesota,2009,3.8
+Minnesota,2010,3.5
+Minnesota,2011,2.3
+Minnesota,2012,1.5
+Minnesota,2013,2.4
+Minnesota,2014,2.8
+Minnesota,2015,1.5
+Minnesota,2016,1.6
+Minnesota,2017,1.1
+Minnesota,2018,2.9
+Minnesota,2019,1.1
+Minnesota,2020,3.5
+Minnesota,2021,5.4
+Mississippi,1999,2.9
+Mississippi,2000,0.5
+Mississippi,2001,0.9
+Mississippi,2002,1.4
+Mississippi,2003,4.3
+Mississippi,2004,2.3
+Mississippi,2005,2.5
+Mississippi,2006,2.3
+Mississippi,2007,1.2
+Mississippi,2008,1.6
+Mississippi,2009,3.7
+Mississippi,2010,0.6
+Mississippi,2011,0.1
+Mississippi,2012,2
+Mississippi,2013,0.1
+Mississippi,2014,0
+Mississippi,2015,0.2
+Mississippi,2016,0.8
+Mississippi,2017,0
+Mississippi,2018,0.4
+Mississippi,2019,0.1
+Mississippi,2020,0.5
+Mississippi,2021,3.8
+Missouri,1999,2.9
+Missouri,2000,2.6
+Missouri,2001,0.7
+Missouri,2002,1.8
+Missouri,2003,2.1
+Missouri,2004,2.8
+Missouri,2005,2.3
+Missouri,2006,0.6
+Missouri,2007,0.2
+Missouri,2008,2.1
+Missouri,2009,2.4
+Missouri,2010,1.5
+Missouri,2011,0.8
+Missouri,2012,1.1
+Missouri,2013,1.1
+Missouri,2014,0.5
+Missouri,2015,1.1
+Missouri,2016,0
+Missouri,2017,0.8
+Missouri,2018,1.2
+Missouri,2019,2.1
+Missouri,2020,2.7
+Missouri,2021,4.6
+Montana,1999,0.4
+Montana,2000,2.6
+Montana,2001,0.9
+Montana,2002,3.1
+Montana,2003,4
+Montana,2004,5.1
+Montana,2005,5.2
+Montana,2006,3.2
+Montana,2007,4.8
+Montana,2008,0.1
+Montana,2009,2.4
+Montana,2010,3.2
+Montana,2011,2.7
+Montana,2012,1.1
+Montana,2013,1.5
+Montana,2014,2
+Montana,2015,3.6
+Montana,2016,2.1
+Montana,2017,3.5
+Montana,2018,1.3
+Montana,2019,0.6
+Montana,2020,0.3
+Montana,2021,4.8
+Nebraska,1999,2.1
+Nebraska,2000,3.7
+Nebraska,2001,2.4
+Nebraska,2002,1.3
+Nebraska,2003,5.8
+Nebraska,2004,2.6
+Nebraska,2005,3.9
+Nebraska,2006,2.8
+Nebraska,2007,2.3
+Nebraska,2008,0.1
+Nebraska,2009,0.1
+Nebraska,2010,3.7
+Nebraska,2011,5.3
+Nebraska,2012,0.1
+Nebraska,2013,1.9
+Nebraska,2014,3.1
+Nebraska,2015,3.2
+Nebraska,2016,1.1
+Nebraska,2017,1.4
+Nebraska,2018,2.3
+Nebraska,2019,1.6
+Nebraska,2020,0.4
+Nebraska,2021,3.4
+Nevada,1999,7.1
+Nevada,2000,4.2
+Nevada,2001,0.9
+Nevada,2002,3.6
+Nevada,2003,4.4
+Nevada,2004,10.5
+Nevada,2005,8
+Nevada,2006,4
+Nevada,2007,0.8
+Nevada,2008,2.9
+Nevada,2009,8.4
+Nevada,2010,1.2
+Nevada,2011,0.7
+Nevada,2012,1.1
+Nevada,2013,0.3
+Nevada,2014,0.9
+Nevada,2015,4.2
+Nevada,2016,2.7
+Nevada,2017,3.9
+Nevada,2018,3.4
+Nevada,2019,4.3
+Nevada,2020,6.7
+Nevada,2021,8.9
+New Hampshire,1999,3
+New Hampshire,2000,7
+New Hampshire,2001,1.5
+New Hampshire,2002,3.2
+New Hampshire,2003,4.1
+New Hampshire,2004,4.1
+New Hampshire,2005,1
+New Hampshire,2006,2.5
+New Hampshire,2007,0.3
+New Hampshire,2008,1.5
+New Hampshire,2009,1.3
+New Hampshire,2010,3.2
+New Hampshire,2011,0.6
+New Hampshire,2012,1.4
+New Hampshire,2013,0.8
+New Hampshire,2014,1.6
+New Hampshire,2015,2.6
+New Hampshire,2016,2.1
+New Hampshire,2017,0.5
+New Hampshire,2018,2
+New Hampshire,2019,1.8
+New Hampshire,2020,1.2
+New Hampshire,2021,9.3
+New Jersey,1999,3.3
+New Jersey,2000,5.3
+New Jersey,2001,1.1
+New Jersey,2002,1.7
+New Jersey,2003,2.1
+New Jersey,2004,0.7
+New Jersey,2005,1.9
+New Jersey,2006,1.7
+New Jersey,2007,0.8
+New Jersey,2008,2.6
+New Jersey,2009,5.2
+New Jersey,2010,1.4
+New Jersey,2011,1.2
+New Jersey,2012,1.9
+New Jersey,2013,1.3
+New Jersey,2014,0.3
+New Jersey,2015,1.5
+New Jersey,2016,1
+New Jersey,2017,0.5
+New Jersey,2018,2.3
+New Jersey,2019,1.7
+New Jersey,2020,4.3
+New Jersey,2021,5.9
+New Mexico,1999,5.3
+New Mexico,2000,1.7
+New Mexico,2001,0.1
+New Mexico,2002,3
+New Mexico,2003,3.9
+New Mexico,2004,8.2
+New Mexico,2005,1.2
+New Mexico,2006,2.4
+New Mexico,2007,0.8
+New Mexico,2008,0.3
+New Mexico,2009,1.3
+New Mexico,2010,0.5
+New Mexico,2011,0
+New Mexico,2012,0.4
+New Mexico,2013,1.2
+New Mexico,2014,2.5
+New Mexico,2015,0.8
+New Mexico,2016,0.6
+New Mexico,2017,0.2
+New Mexico,2018,2.2
+New Mexico,2019,4.4
+New Mexico,2020,2.5
+New Mexico,2021,1.2
+New York,1999,5.4
+New York,2000,3.9
+New York,2001,1.9
+New York,2002,0.6
+New York,2003,0.4
+New York,2004,3
+New York,2005,2.2
+New York,2006,2.6
+New York,2007,0.8
+New York,2008,1.5
+New York,2009,3.4
+New York,2010,3.8
+New York,2011,0.2
+New York,2012,3.8
+New York,2013,0.1
+New York,2014,1.8
+New York,2015,1.5
+New York,2016,2.2
+New York,2017,1.1
+New York,2018,2.8
+New York,2019,2.9
+New York,2020,4.6
+New York,2021,5.7
+North Carolina,1999,5.7
+North Carolina,2000,3.3
+North Carolina,2001,0.8
+North Carolina,2002,1.5
+North Carolina,2003,2.5
+North Carolina,2004,4.1
+North Carolina,2005,5.1
+North Carolina,2006,6.2
+North Carolina,2007,1.1
+North Carolina,2008,2.6
+North Carolina,2009,4.1
+North Carolina,2010,1.4
+North Carolina,2011,1.2
+North Carolina,2012,0.4
+North Carolina,2013,1.6
+North Carolina,2014,2.3
+North Carolina,2015,2.8
+North Carolina,2016,1.7
+North Carolina,2017,2.5
+North Carolina,2018,1.3
+North Carolina,2019,2.2
+North Carolina,2020,1.2
+North Carolina,2021,7
+North Dakota,1999,0.4
+North Dakota,2000,3.9
+North Dakota,2001,0.8
+North Dakota,2002,5.5
+North Dakota,2003,6
+North Dakota,2004,1.5
+North Dakota,2005,3.8
+North Dakota,2006,4.2
+North Dakota,2007,4.7
+North Dakota,2008,7
+North Dakota,2009,2.9
+North Dakota,2010,7.6
+North Dakota,2011,11.7
+North Dakota,2012,22.4
+North Dakota,2013,2
+North Dakota,2014,9.3
+North Dakota,2015,2.2
+North Dakota,2016,6.3
+North Dakota,2017,2.3
+North Dakota,2018,3.2
+North Dakota,2019,0.8
+North Dakota,2020,4.8
+North Dakota,2021,0.3
+Ohio,1999,2.4
+Ohio,2000,2.1
+Ohio,2001,1.4
+Ohio,2002,2
+Ohio,2003,1.3
+Ohio,2004,2.7
+Ohio,2005,2.2
+Ohio,2006,0.1
+Ohio,2007,0.2
+Ohio,2008,1.8
+Ohio,2009,4.8
+Ohio,2010,2.5
+Ohio,2011,3.3
+Ohio,2012,0.8
+Ohio,2013,1.9
+Ohio,2014,3.2
+Ohio,2015,0.8
+Ohio,2016,0.9
+Ohio,2017,1.7
+Ohio,2018,0.7
+Ohio,2019,2.6
+Ohio,2020,3.1
+Ohio,2021,5.9
+Oklahoma,1999,1.8
+Oklahoma,2000,3.8
+Oklahoma,2001,3.8
+Oklahoma,2002,1.9
+Oklahoma,2003,1.6
+Oklahoma,2004,3.5
+Oklahoma,2005,3.9
+Oklahoma,2006,6.5
+Oklahoma,2007,2.2
+Oklahoma,2008,3.9
+Oklahoma,2009,1.4
+Oklahoma,2010,0.3
+Oklahoma,2011,3.6
+Oklahoma,2012,5.1
+Oklahoma,2013,1.6
+Oklahoma,2014,6.6
+Oklahoma,2015,4.1
+Oklahoma,2016,2.1
+Oklahoma,2017,0.5
+Oklahoma,2018,1.8
+Oklahoma,2019,1.9
+Oklahoma,2020,4.3
+Oklahoma,2021,0.4
+Oregon,1999,2.2
+Oregon,2000,8.4
+Oregon,2001,0.9
+Oregon,2002,2
+Oregon,2003,4.2
+Oregon,2004,5
+Oregon,2005,4.1
+Oregon,2006,5
+Oregon,2007,1.7
+Oregon,2008,2.7
+Oregon,2009,4.6
+Oregon,2010,2.2
+Oregon,2011,2.7
+Oregon,2012,0.4
+Oregon,2013,0.8
+Oregon,2014,3
+Oregon,2015,4.8
+Oregon,2016,4.3
+Oregon,2017,3.8
+Oregon,2018,4.6
+Oregon,2019,2.2
+Oregon,2020,1.8
+Oregon,2021,5.7
+Pennsylvania,1999,3
+Pennsylvania,2000,2.6
+Pennsylvania,2001,1.6
+Pennsylvania,2002,1.4
+Pennsylvania,2003,2.4
+Pennsylvania,2004,2.8
+Pennsylvania,2005,1.8
+Pennsylvania,2006,0.4
+Pennsylvania,2007,3.4
+Pennsylvania,2008,2
+Pennsylvania,2009,3.1
+Pennsylvania,2010,2.9
+Pennsylvania,2011,1.5
+Pennsylvania,2012,1.7
+Pennsylvania,2013,1.2
+Pennsylvania,2014,2.1
+Pennsylvania,2015,1.9
+Pennsylvania,2016,0.9
+Pennsylvania,2017,0.9
+Pennsylvania,2018,1.3
+Pennsylvania,2019,1.6
+Pennsylvania,2020,4.8
+Pennsylvania,2021,4.4
+Rhode Island,1999,2.9
+Rhode Island,2000,4.7
+Rhode Island,2001,1.3
+Rhode Island,2002,3.2
+Rhode Island,2003,2.9
+Rhode Island,2004,4
+Rhode Island,2005,1.7
+Rhode Island,2006,3
+Rhode Island,2007,2.7
+Rhode Island,2008,1.7
+Rhode Island,2009,1.1
+Rhode Island,2010,2.7
+Rhode Island,2011,0.1
+Rhode Island,2012,0.6
+Rhode Island,2013,0.6
+Rhode Island,2014,0.7
+Rhode Island,2015,1
+Rhode Island,2016,0.2
+Rhode Island,2017,0.4
+Rhode Island,2018,0.3
+Rhode Island,2019,1.6
+Rhode Island,2020,3.5
+Rhode Island,2021,6
+South Carolina,1999,4.7
+South Carolina,2000,2.8
+South Carolina,2001,0.6
+South Carolina,2002,2.8
+South Carolina,2003,3.9
+South Carolina,2004,1.7
+South Carolina,2005,3.3
+South Carolina,2006,2.3
+South Carolina,2007,2.9
+South Carolina,2008,1.1
+South Carolina,2009,4.4
+South Carolina,2010,1.9
+South Carolina,2011,2.3
+South Carolina,2012,0.9
+South Carolina,2013,1.8
+South Carolina,2014,2.8
+South Carolina,2015,3.2
+South Carolina,2016,3.1
+South Carolina,2017,2.3
+South Carolina,2018,2.3
+South Carolina,2019,3
+South Carolina,2020,2.3
+South Carolina,2021,6.2
+South Dakota,1999,3.9
+South Dakota,2000,7
+South Dakota,2001,0.2
+South Dakota,2002,11.3
+South Dakota,2003,0.6
+South Dakota,2004,3.9
+South Dakota,2005,4.6
+South Dakota,2006,1.4
+South Dakota,2007,3.9
+South Dakota,2008,3.5
+South Dakota,2009,2.3
+South Dakota,2010,1
+South Dakota,2011,6.6
+South Dakota,2012,2
+South Dakota,2013,0.6
+South Dakota,2014,1.6
+South Dakota,2015,1.8
+South Dakota,2016,0.9
+South Dakota,2017,0.7
+South Dakota,2018,1.1
+South Dakota,2019,0.8
+South Dakota,2020,1.6
+South Dakota,2021,4.5
+Tennessee,1999,3.2
+Tennessee,2000,1.2
+Tennessee,2001,0.2
+Tennessee,2002,3.3
+Tennessee,2003,3.3
+Tennessee,2004,4.6
+Tennessee,2005,3
+Tennessee,2006,2.4
+Tennessee,2007,0.6
+Tennessee,2008,0.5
+Tennessee,2009,3.6
+Tennessee,2010,1.4
+Tennessee,2011,3.1
+Tennessee,2012,3.4
+Tennessee,2013,1.2
+Tennessee,2014,1.5
+Tennessee,2015,3.5
+Tennessee,2016,1.9
+Tennessee,2017,2.8
+Tennessee,2018,1.4
+Tennessee,2019,2.4
+Tennessee,2020,2.3
+Tennessee,2021,9
+Texas,1999,3.9
+Texas,2000,3.6
+Texas,2001,2.5
+Texas,2002,2.3
+Texas,2003,0.7
+Texas,2004,5.6
+Texas,2005,2.9
+Texas,2006,7.6
+Texas,2007,4.7
+Texas,2008,0.3
+Texas,2009,0.4
+Texas,2010,2.6
+Texas,2011,3.3
+Texas,2012,5
+Texas,2013,4.5
+Texas,2014,3
+Texas,2015,5
+Texas,2016,0.9
+Texas,2017,2.4
+Texas,2018,4.1
+Texas,2019,3
+Texas,2020,1.8
+Texas,2021,3.9
+Utah,1999,4.1
+Utah,2000,3.6
+Utah,2001,1.1
+Utah,2002,2
+Utah,2003,1.7
+Utah,2004,6
+Utah,2005,7
+Utah,2006,7.7
+Utah,2007,4.5
+Utah,2008,0.3
+Utah,2009,2.2
+Utah,2010,2
+Utah,2011,3.3
+Utah,2012,1.2
+Utah,2013,2.8
+Utah,2014,2.9
+Utah,2015,3.5
+Utah,2016,4.4
+Utah,2017,4.6
+Utah,2018,6.4
+Utah,2019,4.5
+Utah,2020,1.7
+Utah,2021,6.8
+Vermont,1999,5.6
+Vermont,2000,5.4
+Vermont,2001,3.2
+Vermont,2002,3.4
+Vermont,2003,3.6
+Vermont,2004,5.5
+Vermont,2005,0.5
+Vermont,2006,0.5
+Vermont,2007,0.9
+Vermont,2008,3.2
+Vermont,2009,1.9
+Vermont,2010,4.3
+Vermont,2011,2.1
+Vermont,2012,0.8
+Vermont,2013,1.9
+Vermont,2014,0.8
+Vermont,2015,0.7
+Vermont,2016,1
+Vermont,2017,0.3
+Vermont,2018,0.4
+Vermont,2019,1.1
+Vermont,2020,2.9
+Vermont,2021,5.1
+Virginia,1999,5.5
+Virginia,2000,4.8
+Virginia,2001,3.5
+Virginia,2002,1.2
+Virginia,2003,3.5
+Virginia,2004,4
+Virginia,2005,4.9
+Virginia,2006,1.9
+Virginia,2007,1.2
+Virginia,2008,1.5
+Virginia,2009,0.8
+Virginia,2010,3.2
+Virginia,2011,0.7
+Virginia,2012,0.4
+Virginia,2013,0.7
+Virginia,2014,0.3
+Virginia,2015,1.7
+Virginia,2016,1.1
+Virginia,2017,1.6
+Virginia,2018,2.3
+Virginia,2019,2.4
+Virginia,2020,2.1
+Virginia,2021,5.5
+Washington,1999,7.2
+Washington,2000,0.7
+Washington,2001,2.4
+Washington,2002,1.3
+Washington,2003,1.6
+Washington,2004,2.3
+Washington,2005,6.4
+Washington,2006,3.8
+Washington,2007,5.6
+Washington,2008,2.2
+Washington,2009,2.9
+Washington,2010,2.9
+Washington,2011,1.8
+Washington,2012,3.3
+Washington,2013,2.6
+Washington,2014,3.3
+Washington,2015,4.1
+Washington,2016,3.7
+Washington,2017,5.2
+Washington,2018,6.9
+Washington,2019,3.5
+Washington,2020,1.1
+Washington,2021,6.7
+West Virginia,1999,3.2
+West Virginia,2000,0.2
+West Virginia,2001,0.2
+West Virginia,2002,1.6
+West Virginia,2003,0.5
+West Virginia,2004,1.6
+West Virginia,2005,2.4
+West Virginia,2006,1.8
+West Virginia,2007,0.4
+West Virginia,2008,2
+West Virginia,2009,0.4
+West Virginia,2010,1.4
+West Virginia,2011,1.7
+West Virginia,2012,0.1
+West Virginia,2013,0.3
+West Virginia,2014,0
+West Virginia,2015,0.2
+West Virginia,2016,0.9
+West Virginia,2017,2
+West Virginia,2018,2.4
+West Virginia,2019,0.7
+West Virginia,2020,3
+West Virginia,2021,1.3
+Wisconsin,1999,4.1
+Wisconsin,2000,2.9
+Wisconsin,2001,1.6
+Wisconsin,2002,1.9
+Wisconsin,2003,3
+Wisconsin,2004,3.4
+Wisconsin,2005,2.9
+Wisconsin,2006,1.7
+Wisconsin,2007,0.6
+Wisconsin,2008,1.2
+Wisconsin,2009,3
+Wisconsin,2010,3.1
+Wisconsin,2011,2.2
+Wisconsin,2012,1.6
+Wisconsin,2013,0.3
+Wisconsin,2014,2.1
+Wisconsin,2015,1.8
+Wisconsin,2016,1
+Wisconsin,2017,0
+Wisconsin,2018,2.4
+Wisconsin,2019,1.5
+Wisconsin,2020,3.5
+Wisconsin,2021,4.6
+Wyoming,1999,4.2
+Wyoming,2000,3.1
+Wyoming,2001,6.2
+Wyoming,2002,2.2
+Wyoming,2003,3
+Wyoming,2004,3.3
+Wyoming,2005,5.6
+Wyoming,2006,12.9
+Wyoming,2007,7.5
+Wyoming,2008,5.5
+Wyoming,2009,3.1
+Wyoming,2010,3.6
+Wyoming,2011,0.7
+Wyoming,2012,2.3
+Wyoming,2013,0
+Wyoming,2014,1.8
+Wyoming,2015,2.2
+Wyoming,2016,5.5
+Wyoming,2017,1.7
+Wyoming,2018,1.5
+Wyoming,2019,1
+Wyoming,2020,5.7
+Wyoming,2021,0.4
