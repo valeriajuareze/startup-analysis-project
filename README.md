@@ -8,6 +8,10 @@ When somebody says startups the first think coming into mind is something like F
 
 In everything there is risk and startups are not the exception, because startups are created for a specific problem sometimes they don ́t get enough funding, 90% of startups will fail, the major reason that they detected was no market need and run out of money. Other considerations startups face is where to open a new business, states have different regulations like permits, cost of living, taxes and more. Sophia Lanier made a ranking to see which states where friendlier or better to start, there was a tendency in which the states in the south had better opportunities for startups in different ways<sup>3</sup>.
 
+## Presentation 
+
+The link to our presentation is [here](https://docs.google.com/presentation/d/1Oyu_kEITHVKCCUWrZfj4mfKa47yleF4Zf7C6csSKTVY/edit?usp=sharing)
+
 ## Data
 
 The data set used in this project was obtained from [Kaggle](https://www.kaggle.com/). More specifically, the [startup database](https://www.kaggle.com/datasets/manishkc06/startup-success-prediction) contains information of over **900** startups in the US that span across several industries and states. This data was then joined with another relevant [database](https://apps.bea.gov/itable/?ReqID=70&step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI2MDAiXSxbIkNsYXNzaWZpY2F0aW9uIiwiTm9uLUluZHVzdHJ5Il0sWyJNYWpvcl9BcmVhIiwiMCJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiWFgiXV0sWyJTdGF0aXN0aWMiLFsiMSJdXSxbIlVuaXRfb2ZfbWVhc3VyZSIsIlBlcmNlbnRDaGFuZ2UiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=) which was comprised of the porcentual change of annual GDP in the 51 states of the US.
