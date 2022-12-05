@@ -1,8 +1,24 @@
 # Startup Analysis Project
 
-This is a project to analyze the startup ecosystem in the United States. Startups are companies created by entrepreneurs to develop a scalable business model. The goal of this project is to analyze the startup ecosystem in the United States and to identify the factors that contribute to the success of a startup. The project will be divided into two parts. The first part will be an exploratory data analysis of the data set. The second part will be a predictive analysis of the data set. The predictive analysis will be used to identify the factors that contribute to the success of a startup.
+This is a project to analyze the startup ecosystem in the United States. Startups are companies created by entrepreneurs to develop a scalable business model. The goal of this project is to analyze the startup ecosystem in the United States and to identify the factors that contribute to the success of a startup. 
 
-Startups are small companies created by a group of individuals to solve a specific problem or to bring something new to the market, in other words they do what the other companies don't<sup>1</sup>. Thanks to them we have new services or new ideas and with a capitalist economic structure this kind of projects are supported, not only that but in 2022 Jeremy Jurgens from the World Economic Forum declared that startups are crucial in creating societal change and driving economic recovery for the phenomenon that was Covid-19<sup>2</sup>. Some of the perks of having startups are: 1) Innovation, 2) Creating new jobs, 3) Possibilities for people and lastly 5) Productivity.
+The project will be divided into two parts:
+
+**1.** The first part will be an exploratory data analysis of the data set. 
+
+**2.** The second part will be a predictive analysis of the data setThe predictive analysis will be used to identify the factors that contribute to the success of a startup.
+
+## Background 
+
+Startups are small companies created by a group of individuals to solve a specific problem or to bring something new to the market, in other words they do what the other companies don't<sup>1</sup>. Thanks to them we have new services or new ideas and with a capitalist economic structure this kind of projects are supported, not only that but in 2022 Jeremy Jurgens from the World Economic Forum declared that startups are crucial in creating societal change and driving economic recovery for the phenomenon that was Covid-19<sup>2</sup>. Some of the perks of having startups are: 
+
+**1)** Innovation
+
+**2)** Creating new jobs
+
+**3)** Possibilities for people and lastly 
+
+**4)** Productivity.
 
 When somebody says startups the first think coming into mind is something like Facebook or uber but that ́s not always the case, generally the startups are small business like restaurants or health/Fitness locals, this are the common type of startups. In the last years there has been an increase in technological startups in different fields like cyber-security, digital-health, cloud platforms and others.
 
