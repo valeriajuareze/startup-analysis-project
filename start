@@ -1,0 +1,65 @@
+[33mcommit 63fb9d65cd75bc5d55fc01c39e62c89056a480fa[m[33m ([m[1;36mHEAD -> [m[1;32moscar_branch[m[33m, [m[1;31morigin/oscar_branch[m[33m)[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Mon Dec 5 17:22:49 2022 -0600
+
+    removing data that causes issues with merge
+
+[33mcommit dbb666f8d044a969ac3991bb9da9cb55be670fcd[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Mon Dec 5 17:09:20 2022 -0600
+
+    adding heroku necesary documents
+
+[33mcommit a40da3705dabd4881386824a8b0cdc6b409c73a7[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Mon Dec 5 14:02:01 2022 -0600
+
+    adding heroku requirements
+
+[33mcommit b007abb036558df0b841e064ce4ca1a11f51a288[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Mon Dec 5 00:32:48 2022 -0600
+
+    adding a readme for resources
+
+[33mcommit 60225857b05ce21d7876950f497e96e962e26665[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Mon Dec 5 00:30:11 2022 -0600
+
+    final touches for the model
+
+[33mcommit 73797cadf7724c18e899bbb8ae57582e219c371b[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Fri Dec 2 18:17:41 2022 -0600
+
+    adding commentary to model selection
+
+[33mcommit 6e09c96d961310d94429c3e31f1da48a7730d3d2[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Thu Dec 1 23:26:26 2022 -0600
+
+    adding readme
+
+[33mcommit 3e0f793d8f11ff806040fd69a6bee2a8e0c76e2d[m
+Author: Oscar Peña Gómez <100168991+oscarpena96@users.noreply.github.com>
+Date:   Thu Dec 1 23:21:11 2022 -0600
+
+    adding model selection advances and gitignore
+
+[33mcommit 18a47e0ead0c9a559c752bd8871add0fdc23fd77[m
+Author: Oscar Peña <oscarpenagomez@gmail.com>
+Date:   Thu Nov 24 21:52:33 2022 -0600
+
+    adding model selection and model file
+
+[33mcommit daf32d005bc85561d9c9da838163c8b5dbf95d32[m
+Author: Oscar Peña <oscarpenagomez@gmail.com>
+Date:   Thu Nov 17 19:56:02 2022 -0600
+
+    adding my part
+
+[33mcommit b7c342cb9c6ca8974e57705e42f8204cb9ee7794[m
+Author: valeriajuareze <108365182+valeriajuareze@users.noreply.github.com>
+Date:   Wed Nov 16 12:33:00 2022 -0600
+
+    Initial commit
