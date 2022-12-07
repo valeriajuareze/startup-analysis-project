@@ -53,10 +53,23 @@ The training set was used to train the model and the test set was used to test t
 The data was obtained from Kaggle, which is in the public domain.
 
 
-### Model Selection
+## Model Selection
 ----
-The ouptut we expected where 0 or 1, because of the nature of the data we needed a classifier for better results, 2 models where selected, Logistic Regression and Random Forest Classifier, the advantages 
+The presence of Nas on our data was do to the nature of startups and randomness, sometimes they got bought or failed before the first milestone so we decided to fill them with value and we settled to go for 999 because we had real 0 in our dataset, putting them as equal will mean something really different from what they truly are and it will skew the model decision.
+
+The ouptut we expected where 0 or 1, because of the behaviour of the data we needed a classifier for better results, 2 models where selected, Logistic Regression (LR) and Random Forest Classifier (RF). LR is an analogous to multiple linear regression with a binary output, due to its fast computational speed and structured model approach it is a popular method and a good way to start, and RF is created from several weak learners (decision trees) where the result will be the most repeated outcome between the trees, this reduces the chances of overfitting that comes with weak learners. 
+
+
+We didn´t like the first result so we opted to create new models with less features selected from the random forest importances module in sklearn, with 13 features LR did better but still had a low recall score, because the importance of not missing even one 0 this model wasn´t our choice, we tried with neural networks with different hidden layers and activation functions with a 100% accuracy score for training and less than 75% test score we decided that neural networks didn´t work for us.
 
 
 
-For the data we used 35 features, we scaled the data to avoid noise from the outliers, after that the first model was created a random forest classifier only to look for the feature importance and see if all the features where necessary, after that a second random forest and a logistic regression where created with less features, the logistic regression had better scores but not good enough for this project.
+Another ensemble method we tried was Gradient Boosting, the difference between boosting and bagging is that while bagging reduces variance boosting focus in reducing bias which gives it an advantage at trying to match the training set. Another difference is that bagging tries to get the best result by "voting" between the weak learners and boosting tries to learn from each prediction to create "the best possible next model".
+Gradient boosting being a non-parametric doesn´t need any type of distribution, they don´t seem affected by outliers and it has flexibility selecting the loss function. 
+
+We tried Gradient Boosting with different learning rates and got a 81% test score with a 76% AUC and a 48% loss score so we opted that this was our model, then created a Random Grid Search to look for the best parameters, after some parameter tunning we decided to go for a slow learning rate of 0.05, max features of 8 and a max depth of 2, a minimum sample leaf of 0.1, the will be deviance, and lastly a subsample of 0.95
+
+
+
+
+
