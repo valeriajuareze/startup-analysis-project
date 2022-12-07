@@ -51,3 +51,12 @@ The data set was then split into a training set and a test set.
 The training set was used to train the model and the test set was used to test the model.
 
 The data was obtained from Kaggle, which is in the public domain.
+
+
+### Model Selection
+----
+The ouptut we expected where 0 or 1, because of the nature of the data we needed a classifier for better results, 2 models where selected, Logistic Regression and Random Forest Classifier, the advantages 
+
+
+
+For the data we used 35 features, we scaled the data to avoid noise from the outliers, after that the first model was created a random forest classifier only to look for the feature importance and see if all the features where necessary, after that a second random forest and a logistic regression where created with less features, the logistic regression had better scores but not good enough for this project.
