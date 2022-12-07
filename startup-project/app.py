@@ -1,10 +1,15 @@
+from flask import Flask, request, render_template, jsonify,request, redirect
+import sqlalchemy
 
-from flask import Flask, request, render_template
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, inspect, MetaData, Table, text
+from config import password, user_name
 import pandas as pd
 import json
-
 import pickle
-
+import os
+import psycopg2
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
 
@@ -12,7 +17,17 @@ model = pickle.load(open("finalized_model.sav", "rb"))
 scaler = pickle.load(open("scaler.sav", "rb"))
 
 
+
+
 app = Flask(__name__)
+
+
+### Create connection with database and load database
+connection = psycopg2.connect(user='postgres', password="password", 
+host='startup-.c60crnyd8gs4.us-east-1.rds.amazonaws.com', 
+database='startup_db'),
+sql = "SELECT * FROM startup_alldata"
+data = sqlio.read_sql_query(sql,connection)
 
 
 
@@ -72,7 +87,12 @@ def probability_calc():
 
     return render_template('form.html', success=proba)
 
+
+@app.route("/startup")
+def db():
+    with open("startup.json") as json_file:
+        data=json.load(json_file)
+    return data
+
 if __name__ == "__main__":
     app.run()
-
-

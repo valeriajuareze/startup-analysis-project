@@ -1,139 +1,280 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
-        <h1>Startup Success Prediction</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+              crossorigin="anonymous">
+    </head>
+
+    <body style="padding: 15px;">
+        <h1>Startup Success Prediction</h1><br>
 
         <form action="/calculate_success"
               method="post">
             <!-- create dropwdown for US states -->
-            
-            <label for="state">State:</label><br>
-            <select id="state"
-                    name="state">
-                <option value="is_ca">California</option>
-                <option value="is_ma">Massachusetts</option>
-                <option value="is_ny">New York</option>
-                <option value="is_tx">Texas</option>
-                <option value="is_otherstate">Other</option>
-            </select><br>
-            <label for="gdp">Enter state GDP % change from founding year to prior year (Example: 96 instead of
-                .96):</label><br>
-            <input type="number"
-                   step="0.01"
-                   id="gdp"
-                   name="gdp" value=0><br>
-            <label for="first_funding">Age of first funding (in years)</label><br>
-            <input type="number"
-                   id="first_funding"
-                   name="first_funding" value=0><br>
-            <label for="last_funding">Age of last funding (in years)</label><br>
-            <input type="number"
-                   id="last_funding"
-                   name="last_funding" value=0><br>
-            <label for="first_milestone">Age of first Milestone (in years):</label><br>
-            <input type="number"
-                   id="first_milestone"
-                   name="first_milestone" value=0><br>
-            <label for="last_milestone">Age of last Milestone (in years):</label><br>
-            <input type="number"
-                   id="last_milestone"
-                   name="last_milestone" value=0><br>
-            <label for="relationships">Number of relationships:</label><br>
-            <input type="number"
-                   id="relationships"
-                   name="relationships" value=0><br>
-            <label for="rounds">Funding Rounds:</label><br>
-            <input type="number"
-                   id="rounds"
-                   name="rounds" value=0><br>
-            <label for="funding">Funding Total in USD:</label><br>
-            <input type="number"
-                   id="funding"
-                   name="funding" value=0><br>
-            <label for="milestones">Number of Milestones:</label><br>
-            <input type="number"
-                   id="milestones"
-                   name="milestones" value=0><br>
-            <label for="category">Category:</label><br>
-            <select id="category"
-                    name="category">
-                <option value="is_software">Software</option>
-                <option value="is_web">Web</option>
-                <option value="is_mobile">Mobile</option>
-                <option value="is_enterprise">Enterprise </option>
-                <option value="is_advertising">Advertising </option>
-                <option value="is_gamesvideo">Video Games </option>
-                <option value="is_ecommerce">Ecommerce </option>
-                <option value="is_biotech">Biotech </option>
-                <option value="is_consulting">Consulting </option>
-                <option value="is_other">Other </option>
-            </select><br>
-            <label for="vc">Does it have VC?:</label><br>
-            <select id="vc"
-                    name="vc">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="angel">Does it have angel funding?:</label><br>
-            <select id="angel"
-                    name="angel">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="seriesa">Does it have series A:</label><br>
-            <select id="seriesa"
-                    name="seriesa">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="seriesb">Does it have series B:</label><br>
-            <select id="seriesb"
-                    name="seriesb">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="seriesc">Does it have series C:</label><br>
-            <select id="seriesc"
-                    name="seriesc">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="seriesd">Does it have series D:</label><br>
-            <select id="seriesd"
-                    name="seriesd">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="avg_participants">Average Participants per Round:</label><br>
-            <input type="number"
-                   id="avg_participants"
-                   name="avg_participants" value=0><br>
-            <label for="top500">Is the company in the top 500?:</label><br>
-            <select id="top500"
-                    name="top500">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="reached_milestone">Did the company reach a milestone?:</label><br>
-            <select id="reached_milestone"
-                    name="reached_milestone">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select><br>
-            <label for="founded_funding">How many days did it take from founding to funding?:</label><br>
-            <input type="number"
-                   id="founded_funding"
-                   name="founded_funding" value=0><br>
-            <label for="first_last_funding">How many days did it take from first funding to last funding?:</label><br>
-            <input type="number"
-                   id="first_last_funding"
-                   name="first_last_funding" value=0><br><br>
-            <button type="submit">Calculate succes chances</button>
+
+            <div class="row">
+                <div class="col-3">
+                    <label class="form-label"
+                           for="state">State:</label>
+                    <select id="state"
+                            name="state"
+                            class="form-control">
+                        <option value="is_ca">California</option>
+                        <option value="is_ma">Massachusetts</option>
+                        <option value="is_ny">New York</option>
+                        <option value="is_tx">Texas</option>
+                        <option value="is_otherstate">Other</option>
+                    </select>
+                    <div id="passwordHelpBlock"
+                         class="form-text">
+                        Choose the state where the company was founded
+                    </div>
+                </div>
+                <div class="col-5">
+                    <label class="form-label"
+                           for="gdp">Enter state GDP % change from founding year to prior year</label>
+                    <input type="number"
+                           step="0.01"
+                           id="gdp"
+                           name="gdp"
+                           class="form-control" value=0>
+                    <div id="passwordHelpBlock"
+                         class="form-text">
+                        Example: 96 instead of
+                        .96
+                    </div>
+                </div>
+                <div class="col-4">
+                    <label class="form-label"
+                           for="first_funding">Age of first funding (in years)</label><br>
+                    <input type="number"
+                           id="first_funding"
+                           name="first_funding"
+                           class="form-control" value=0><br>
+                </div>
+            </div><br>
+
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="last_funding">Age of last funding (in years)</label><br>
+                    <input type="number"
+                           id="last_funding"
+                           name="last_funding"
+                           class="form-control" value=0>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="first_milestone">Age of first Milestone (in years):</label>
+                    <input type="number"
+                           id="first_milestone"
+                           name="first_milestone"
+                           class="form-control" value=0>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="last_milestone">Age of last Milestone (in years):</label>
+                    <input type="number"
+                           id="last_milestone"
+                           name="last_milestone"
+                           class="form-control" value=0>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="relationships">Number of relationships:</label>
+                    <input type="number"
+                           id="relationships"
+                           name="relationships"
+                           class="form-control" value=0>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="rounds">Funding Rounds:</label>
+                    <input type="number"
+                           id="rounds"
+                           name="rounds" 
+                           class="form-control" value=0>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="funding">Funding Total in USD:</label>
+                    <input type="number"
+                           id="funding"
+                           name="funding"
+                           class="form-control" value=0>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="milestones">Number of Milestones:</label>
+                    <input type="number"
+                           id="milestones"
+                           name="milestones"
+                           class="form-control" value=0>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="category">Category:</label>
+                    <select id="category"
+                            name="category"
+                            class="form-control">
+                        <option value="is_software">Software</option>
+                        <option value="is_web">Web</option>
+                        <option value="is_mobile">Mobile</option>
+                        <option value="is_enterprise">Enterprise </option>
+                        <option value="is_advertising">Advertising </option>
+                        <option value="is_gamesvideo">Video Games </option>
+                        <option value="is_ecommerce">Ecommerce </option>
+                        <option value="is_biotech">Biotech </option>
+                        <option value="is_consulting">Consulting </option>
+                        <option value="is_other">Other </option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="vc">Does it have VC?:</label>
+                    <select id="vc"
+                            name="vc"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="angel">Does it have angel funding?:</label>
+                    <select id="angel"
+                            name="angel"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="seriesa">Does it have series A:</label>
+                    <select id="seriesa"
+                            name="seriesa"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="seriesb">Does it have series B:</label>
+                    <select id="seriesb"
+                            name="seriesb"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="seriesc">Does it have series C:</label>
+                    <select id="seriesc"
+                            name="seriesc"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="seriesd">Does it have series D:</label>
+                    <select id="seriesd"
+                            name="seriesd"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="avg_participants">Average Participants per Round:</label>
+                    <input type="number"
+                           id="avg_participants"
+                           name="avg_participants"
+                           class="form-control" value=0>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label"
+                           for="top500">Is the company in the top 500?:</label><br>
+                    <select id="top500"
+                            name="top500"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select><br>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="reached_milestone">Did the company reach a milestone?:</label><br>
+                    <select id="reached_milestone"
+                            name="reached_milestone"
+                            class="form-control">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select><br>
+                </div>
+                <div class="col">
+                    <label class="form-label"
+                           for="founded_funding">How many days did it take from founding to funding?:</label><br>
+                    <input type="number"
+                           id="founded_funding"
+                           name="founded_funding"
+                           class="form-control" value=0>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-4">
+                    <label class="form-label"
+                           for="first_last_funding">How many days did it take from first funding to last
+                        funding?:</label>
+                    <input type="number"
+                           id="first_last_funding"
+                           name="first_last_funding"
+                           class="form-control" value=0>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col text-center">
+                    <button type="submit"
+                            class="btn btn-primary">Calculate success chances</button>
+                </div><br><br>
+            </div>
         </form>
 
-        <div id="chances_result">
-            <p>Your probability of success is: {{ success }}</p>
+        <div id="chances_result"
+             class="text-center">
+            <p>Your probability of success is:
+                <span class="fw-bold">{{ success }}%</span>
+            </p>
         </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+                crossorigin="anonymous"></script>
     </body>
 
 </html>
