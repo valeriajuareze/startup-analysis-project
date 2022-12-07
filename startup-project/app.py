@@ -1,15 +1,34 @@
 
 from flask import Flask, request, render_template
 import math
+from config import db_password
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, inspect, MetaData, Table
+from config import db_password
+import pandas as pd
+import psycopg2
+import json
+
 import pickle
-import sklearn
-from sklearn.ensemble import GradientBoostingClassifier
-import joblib
 
+#### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
+### start database string
+db_string = f"postgresql://postgres:{db_password}@startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com"
 
+# Create enginge to connect with db
+engine = create_engine(db_string)
+# Create inspector to inspect db
+inspector = inspect(engine)
+# Get the db as a df and save it as a json file
+startup_df = pd.read_sql_table('startup_alldata',db_string)
+startup_df.to_json('startup.json')
 
 app = Flask(__name__)
+
+print(startup_df)
 
 @app.route('/')
 def succes_calc():
@@ -60,7 +79,7 @@ def probability_calc():
 
     predict = model.predict_proba(list1)
     print(predict)
-    proba = predict[0][1]
+    proba = predict
 
     return render_template('form.html', success=proba)
 
