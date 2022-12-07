@@ -55,7 +55,7 @@ The data was obtained from Kaggle, which is in the public domain.
 
 ## Model Selection
 ----
-The presence of Nas on our data was do to the nature of startups and randomness, sometimes they got bought or failed before the first milestone so we decided to fill them with value and we settled to go for 999 because we had real 0 in our dataset, putting them as equal will mean something really different from what they truly are and it will skew the model decision.
+The presence of Nas on our data was do to the nature and randomness of startups, sometimes they got bought or failed before the first milestone so we decided to fill them with value and we settled to go for 999 because we had real 0 in our dataset, putting them as equal will mean something really different from what they truly are and it will skew the model decision.
 
 The ouptut we expected where 0 or 1, because of the behaviour of the data we needed a classifier for better results, 2 models where selected, Logistic Regression (LR) and Random Forest Classifier (RF). LR is an analogous to multiple linear regression with a binary output, due to its fast computational speed and structured model approach it is a popular method and a good way to start, and RF is created from several weak learners (decision trees) where the result will be the most repeated outcome between the trees, this reduces the chances of overfitting that comes with weak learners. 
 
