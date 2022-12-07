@@ -15,6 +15,10 @@ import pickle
 
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
+
+### Import scaler
+scaler = pickle.load(open("scaler.sav", "rb"))
+
 ### start database string
 db_string = f"postgresql://postgres:{db_password}@startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com"
 
@@ -77,9 +81,12 @@ def probability_calc():
     list1.append([gdp,first_funding, last_funding, first_milestone, last_milestone,relationship,rounds, funding, milestones, is_ca, is_ny,
     is_ma, is_tx, is_otherstate, is_software, is_web, is_mobile, is_enterprise, is_advertising, is_gamesvideo, is_ecommerce, is_biotech,is_consulting, is_other, vc, angel, series_a, series_b, series_c, series_d, average_participants,top500, reached_milestone,founded_funding, first_last_funding ])
 
-    predict = model.predict_proba(list1)
+    ## scale data
+    x_data = scaler.transform(list1)
+
+    predict = model.predict_proba(x_data)
     print(predict)
-    proba = predict
+    proba = round(predict[0][1],2)
 
     return render_template('form.html', success=proba)
 

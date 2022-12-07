@@ -70,6 +70,14 @@ Gradient boosting being a non-parametric doesn´t need any type of distribution,
 We tried Gradient Boosting with different learning rates and got a 81% test score with a 76% AUC and a 48% loss score so we opted that this was our model, then created a Random Grid Search to look for the best parameters, after some parameter tunning we decided to go for a slow learning rate of 0.05, max features of 8 and a max depth of 2, a minimum sample leaf of 0.1, the will be deviance, and lastly a subsample of 0.95
 
 
+![alt text](/startup-analysis-project/startup-project/Resources/model_selection/Gradient_boosting_score.png)
+
+
+fig 1. report for gradient boosting classifier model
 
 
 
+
+![alt text](/startup-analysis-project/startup-project/Resources/model_selection/AUC_gradient_boosting.png)
+
+fig 2. AUC score for our gradient boosting classifier model
