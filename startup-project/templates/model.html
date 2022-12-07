@@ -46,7 +46,7 @@
 <body>
     <div class="prediction">
         <h1>Prediction</h1>
-        
+        <form action="{{ url_for('predict')}}"method="post">
 		<label for="gdp">gdp</label> 
 		<input type="number" step="0.1" id="gdp" name="gdp" required="required">
         <label>difference in percentage</label>
