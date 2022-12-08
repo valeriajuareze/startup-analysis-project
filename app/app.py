@@ -3,6 +3,8 @@ from config import password, user_name
 import pandas as pd
 import pickle
 import psycopg2
+from flask import send_from_directory
+import os
 
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
@@ -88,6 +90,20 @@ def probability_calc():
     elif request.method=='GET':
         return render_template('form.html')
     
+
+
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_form_directory(os.path.join(app.root_path,'static'), 
+                                                'favicon.ico', mimetype='image/favicon.png')
+
+
+
+@app.route("/startup")
+def db():
+    return jsonify(data2)
+
 
 
 if __name__ == "__main__":
