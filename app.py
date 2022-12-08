@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, jsonify,request, redirect
 import sqlalchemy
-
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, inspect, MetaData, Table, text
@@ -21,10 +20,6 @@ scaler = pickle.load(open("scaler.sav", "rb"))
 app = Flask(__name__)
 
 
-
-#Connect to a our remote PostgreSQL database
-DATABASE_URL= "postgresql://postgres:{db_password}@startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com"
-
 ## query for results
 sql = "SELECT * FROM startup_alldata"
 ## Connect with db
@@ -38,11 +33,13 @@ data=pd.read_sql_query(sql,connection)
 ### read to json
 data2= data.to_json()
 ### generate index
-@app.route('/')
-def succes_calc():
-    return render_template('index.html')
+# @app.route('/')
+# def succes_calc():
+#     return render_template('index.html')
+
+
 ### generate html for model
-@app.route('/calculate_success', methods=['POST'])
+@app.route('/', methods=['POST'])
 def probability_calc():
     first_funding = float(request.form['first_funding'])
     last_funding = float(request.form['last_funding'])
@@ -93,15 +90,15 @@ def probability_calc():
     return render_template('form.html', success=proba)
 
 
-@app.route("/index")
-def index():
-    return render_template("index.html")
+# @app.route("/index")
+# def index():
+#     return render_template("index.html")
 
-@app.route("/startup")
-def db():
-    return jsonify(data2)
+# @app.route("/startup")
+# def db():
+#     return jsonify(data2)
 
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
