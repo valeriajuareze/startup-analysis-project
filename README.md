@@ -43,7 +43,13 @@ The link to our presentation is [here](https://docs.google.com/presentation/d/1O
 
 The data set used in this project was obtained from [Kaggle](https://www.kaggle.com/). More specifically, the [startup database](https://www.kaggle.com/datasets/manishkc06/startup-success-prediction) contains information of over **900** startups in the US that span across several industries and states. 
 
+![image](https://user-images.githubusercontent.com/108365182/206522249-2fd46425-e256-4f81-87ba-a2be8b587867.png)
+
+
 Also, we used another relevant [database](https://apps.bea.gov/itable/?ReqID=70&step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyNCwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI2MDAiXSxbIkNsYXNzaWZpY2F0aW9uIiwiTm9uLUluZHVzdHJ5Il0sWyJNYWpvcl9BcmVhIiwiMCJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiWFgiXV0sWyJTdGF0aXN0aWMiLFsiMSJdXSxbIlVuaXRfb2ZfbWVhc3VyZSIsIlBlcmNlbnRDaGFuZ2UiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=) which was comprised of the porcentual change of annual GDP in the 51 states of the US.
+
+![image](https://user-images.githubusercontent.com/108365182/206522339-2fb4ebcd-0cc8-43d9-aa5c-8724dcf8ddae.png)
+
 
 ## Data Cleaning
 
