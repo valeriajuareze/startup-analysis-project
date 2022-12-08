@@ -17,7 +17,7 @@ scaler = pickle.load(open("scaler.sav", "rb"))
 
 
 
-
+### Initialize flask application
 app = Flask(__name__)
 
 
@@ -25,25 +25,25 @@ app = Flask(__name__)
 #Connect to a our remote PostgreSQL database
 DATABASE_URL= "postgresql://postgres:{db_password}@startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com"
 
-
+## query for results
 sql = "SELECT * FROM startup_alldata"
+## Connect with db
 connection = psycopg2.connect(user='postgres', password="postgres", 
 host='startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com',
 port='5432', 
 database='startup_db')
-sql = "SELECT * FROM startup_alldata"
 
+### read the data
 data=pd.read_sql_query(sql,connection)
-
+### read to json
 data2= data.to_json()
-
+### generate index
 @app.route('/')
 def succes_calc():
     return render_template('index.html')
-
-@app.route('/calculate_success', methods=['POST'])
+### generate html for model
+@app.route('/calculate_success', methods=['POST', "GET"])
 def probability_calc():
-    print("hello")
     first_funding = float(request.form['first_funding'])
     last_funding = float(request.form['last_funding'])
     first_milestone = float(request.form['first_milestone'])
@@ -79,21 +79,21 @@ def probability_calc():
         else:
             globals()[category_name] = 0
 
-    ##success = is_enterprise
     list1 = []
     list1.append([gdp,first_funding, last_funding, first_milestone, last_milestone,relationship,rounds, funding, milestones, is_ca, is_ny,
     is_ma, is_tx, is_otherstate, is_software, is_web, is_mobile, is_enterprise, is_advertising, is_gamesvideo, is_ecommerce, is_biotech,is_consulting, is_other, vc, angel, series_a, series_b, series_c, series_d, average_participants,top500, reached_milestone,founded_funding, first_last_funding ])
 
     ## scale data
     x_data = scaler.transform(list1)
-
+    ## predict with model
     predict = model.predict_proba(x_data)
-    print(predict)
+    ### only the probability for 1
     proba = round(predict[0][1],2)
-
+    ### return aswer
     return render_template('form.html', success=proba)
 
-@app.route("/index")
+
+@app.route("/index", methods=["GET"])
 def index():
     return render_template("index.html")
 
