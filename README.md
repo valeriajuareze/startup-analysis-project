@@ -137,3 +137,9 @@ fig 1. report for gradient boosting classifier model
 fig 2. AUC score for our gradient boosting classifier model
 
 ## Results
+
+To answer the last question **Does the percentual change of annual GDP by state affect the startup success?** we did some additional statistical analysis. We created an ANOVA Test to see if we could reject our Ho, which formally is "The success of a startup depends on the percentual change of annual GDP". And we got the following results:
+
+![image](https://user-images.githubusercontent.com/108365182/206584342-40848a88-c989-486b-8d8d-630e86fa17aa.png)
+
+As the model says for the result of p-value= 0.728, we reject our null hypothesis because our significance level is 0.05, so we can conclude that there is enough statistical evidence to say that the success of a startup does not depends on the percentual change of annual GDP.
