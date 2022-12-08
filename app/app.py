@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify,request
+from flask import Flask, render_template, jsonify,request
 from config import password, user_name
 import pandas as pd
 import pickle
@@ -92,11 +92,9 @@ def probability_calc():
     
 
 
-
-@app.route("/favicon.ico")
+@app.route('/favicon.ico')
 def favicon():
-    return send_form_directory(os.path.join(app.root_path,'static'), 
-                                                'favicon.ico', mimetype='image/favicon.png')
+    return url_for('static', filename='image/favicon.ico')
 
 
 
