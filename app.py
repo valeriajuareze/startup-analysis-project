@@ -96,6 +96,10 @@ def probability_calc():
 def db():
     return jsonify(data2)
 
+@app.route('/favicon.ico')
+def favicon():
+    return 0
+
 
 port = int(os.environ.get('PORT', 5000))
 if __name__ == "__main__":
