@@ -42,7 +42,7 @@ data2= data.to_json()
 def succes_calc():
     return render_template('index.html')
 ### generate html for model
-@app.route('/calculate_success', methods=['POST', "GET"])
+@app.route('/calculate_success', methods=['POST'])
 def probability_calc():
     first_funding = float(request.form['first_funding'])
     last_funding = float(request.form['last_funding'])
