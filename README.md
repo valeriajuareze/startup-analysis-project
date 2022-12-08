@@ -76,9 +76,32 @@ After we had both datasets cleaned and ready to be joined, we decided to create 
 The following questions will led the interaction and all visualizations decisiones in this project:
 
 - Does the percentual change of annual GDP by state affect the startup success?
-- Is there a period of time when startups in US have more success?
+- Is there a period of time when startups in US had more success?
 - Are the location of the startup and its success related?
 - Which are the states where startups have more probability to success?
+
+## Dashboard and Analysis Phase
+
+To answer part of the questions mentioned above, we started the analysis phase. We decided to use Tableau to display the Dashboard because it is known to have the capacity handling large amounts of data, and also quickly to create interactive visualizations besides is one of the most robust softwares creating robust presentations of results in beautiful, intuitive and interactive charts. 
+
+1. The first visualization that we created answer the question: **Is there a period of time when startups in US had more success?** 
+
+![image](https://user-images.githubusercontent.com/108365182/206509591-88584b2f-ff30-4431-968c-fd6356345e52.png)
+
+And, as the graph bar tell us above, USA had a startup boom between 2000-2008, although the financial crisis (housing bubble) that hit the country. However, most of them were acquired, around 65% of them, so we can deduce that it was a great time to start a new bussiness in the startup environment.
+
+2. The second visualization that we considered importatnt to demonstarte was if the type of industry affects if a startup will be acquired or closed. 
+
+![image](https://user-images.githubusercontent.com/108365182/206509481-2b35a837-f723-461c-8850-fb33d82a10e0.png)
+
+According to the bars in the previous graph bar, we can conclude that the software, web, mobile, enterpise, biotech and networking_hosting industries are the ones that tend to be acquired. Basically, as we said in the background of this project, the technology industry is the most common type in the world of startups, due to its success. 
+
+3. The third visualization answers the question **Are the location of the startup and its success related?** 
+
+![image](https://user-images.githubusercontent.com/108365182/206515688-9fa0c917-cbb3-40e5-b234-08e4632ed67e.png)
+
+Based on the previous visualization, we conclude that the location of a startup affects directly to its success, since each state has diferrent per capita income, the greater the probabilty of success. For example, in the state of Califronia, where per capita income is around $40,000 per year, most of the startups have been successful, reaching out their first milestone, whereas in Idaho, where income is around $16,000, it´s more new bussiness are likely to close. 
+
 
 ## Model Selection
 ----
