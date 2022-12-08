@@ -90,11 +90,5 @@ def probability_calc():
     
 
 
-@app.route("/startup")
-def db():
-    return jsonify(data2)
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
