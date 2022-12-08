@@ -8,7 +8,6 @@ from config import password, user_name
 import pandas as pd
 import json
 import pickle
-import os
 import psycopg2
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
@@ -22,14 +21,21 @@ scaler = pickle.load(open("scaler.sav", "rb"))
 app = Flask(__name__)
 
 
-### Create connection with database and load database
-connection = psycopg2.connect(user='postgres', password="password", 
-host='startup-.c60crnyd8gs4.us-east-1.rds.amazonaws.com', 
-database='startup_db'),
+
+#Connect to a our remote PostgreSQL database
+DATABASE_URL= "postgresql://postgres:{db_password}@startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com"
+
+
 sql = "SELECT * FROM startup_alldata"
-data = sqlio.read_sql_query(sql,connection)
+connection = psycopg2.connect(user='postgres', password="postgres", 
+host='startup-db.c60crnyd8gs4.us-east-1.rds.amazonaws.com',
+port='5432', 
+database='startup_db')
+sql = "SELECT * FROM startup_alldata"
 
+data=pd.read_sql_query(sql,connection)
 
+data2= data.to_json()
 
 @app.route('/')
 def succes_calc():
@@ -90,9 +96,7 @@ def probability_calc():
 
 @app.route("/startup")
 def db():
-    with open("startup.json") as json_file:
-        data=json.load(json_file)
-    return data
+    return jsonify(data2)
 
 if __name__ == "__main__":
     app.run()
