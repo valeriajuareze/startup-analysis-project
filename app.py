@@ -93,7 +93,7 @@ def probability_calc():
     return render_template('form.html', success=proba)
 
 
-@app.route("/index", methods=["GET"])
+@app.route("/index")
 def index():
     return render_template("index.html")
 
