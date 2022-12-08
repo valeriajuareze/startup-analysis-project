@@ -3,7 +3,7 @@ from config import password, user_name
 import pandas as pd
 import pickle
 import psycopg2
-import os
+
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
 
