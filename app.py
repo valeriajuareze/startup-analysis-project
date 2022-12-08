@@ -31,7 +31,7 @@ data=pd.read_sql_query(sql,connection)
 ### read to json
 data2= data.to_json()
 ### generate index
-@app.route('/index')
+@app.route('/')
 def succes_calc():
     return render_template('index.html')
 
@@ -96,11 +96,7 @@ def probability_calc():
 def db():
     return jsonify(data2)
 
-@app.route('/favicon.ico')
-def favicon():
-    return 0
 
-
-port = int(os.environ.get('PORT', 5000))
+¿
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=port)
+    app.run(debug=True,  port=0.0.0.0)
