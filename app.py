@@ -1,13 +1,11 @@
 from flask import Flask, request, render_template, jsonify,request, redirect
-import sqlalchemy
+
 from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, inspect, MetaData, Table, text
 from config import password, user_name
 import pandas as pd
-import json
 import pickle
 import psycopg2
+import os
 #### import model 
 model = pickle.load(open("finalized_model.sav", "rb"))
 
@@ -33,7 +31,7 @@ data=pd.read_sql_query(sql,connection)
 ### read to json
 data2= data.to_json()
 ### generate index
-@app.route('/')
+@app.route('/index')
 def succes_calc():
     return render_template('index.html')
 
@@ -99,6 +97,6 @@ def db():
     return jsonify(data2)
 
 
-
+port = int(os.environ.get('PORT', 5000))
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=port)
