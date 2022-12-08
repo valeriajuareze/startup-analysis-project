@@ -33,7 +33,7 @@ data=pd.read_sql_query(sql,connection)
 ### read to json
 data2= data.to_json()
 ### generate index
-@app.route('/')
+@app.route('/index')
 def succes_calc():
     return render_template('index.html')
 
