@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template, jsonify,request
-from sqlalchemy.ext.automap import automap_base
 from config import password, user_name
 import pandas as pd
 import pickle
