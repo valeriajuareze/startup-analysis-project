@@ -39,7 +39,7 @@ data2= data.to_json()
 
 @app.route('/')
 def succes_calc():
-    return render_template('form.html')
+    return render_template('index.html')
 
 @app.route('/calculate_success', methods=['POST'])
 def probability_calc():
@@ -93,10 +93,15 @@ def probability_calc():
 
     return render_template('form.html', success=proba)
 
+@app.route("/index")
+def index():
+    return render_template("index.html")
 
 @app.route("/startup")
 def db():
     return jsonify(data2)
+
+
 
 if __name__ == "__main__":
     app.run()
