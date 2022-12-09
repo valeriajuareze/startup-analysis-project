@@ -1,5 +1,4 @@
 from flask import Flask, render_template, jsonify,request
-from config import password, user_name
 import pandas as pd
 import pickle
 import psycopg2
