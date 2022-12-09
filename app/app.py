@@ -13,17 +13,19 @@ from sklearn.metrics import log_loss
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve, RocCurveDisplay, auc
 
-#### import model 
-model = pickle.load(open("app/finalized_model.sav", "rb"))
 
-### Import scaler
-scaler = pickle.load(open("app/scaler.sav", "rb"))
 
 
 
 ### Initialize flask application
 app = Flask(__name__)
 
+
+#### import model 
+model = pickle.load(open("app/finalized_model.sav", "rb"))
+
+### Import scaler
+scaler = pickle.load(open("app/scaler.sav", "rb"))
 
 ## query for results
 sql = "SELECT * FROM startup_alldata"
@@ -98,12 +100,6 @@ def probability_calc():
         return render_template('form.html')
     
 
-
-
-@app.route("/favicon.ico")
-def favicon():
-    return send_form_directory(os.path.join(app.root_path,'static'), 
-                                                'favicon.ico', mimetype='image/favicon.png')
 
 
 
