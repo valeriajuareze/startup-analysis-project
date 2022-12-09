@@ -6,10 +6,10 @@ from flask import send_from_directory
 import os
 
 #### import model 
-model = pickle.load(open("finalized_model.sav", "rb"))
+model = pickle.load(open("app/finalized_model.sav", "rb"))
 
 ### Import scaler
-scaler = pickle.load(open("scaler.sav", "rb"))
+scaler = pickle.load(open("app/scaler.sav", "rb"))
 
 
 
