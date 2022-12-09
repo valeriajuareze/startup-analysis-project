@@ -108,6 +108,7 @@ According to the bars in the previous graph bar, we can conclude that the softwa
 
 Based on the previous visualization, we conclude that the location of a startup affects directly to its success, since each state has diferrent per capita income, the greater the probabilty of success. For example, in the state of Califronia, where per capita income is around $40,000 per year, most of the startups have been successful, reaching out their first milestone, whereas in Idaho, where income is around $16,000, it´s more new bussiness are likely to close. 
 
+The link to our dashboard is [here](https://public.tableau.com/app/profile/rodrigo.valle/viz/Startups3_16691741317210/Dashboard1)
 
 ## Model Selection
 ----
