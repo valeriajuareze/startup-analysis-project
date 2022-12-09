@@ -4,6 +4,13 @@ import pickle
 import psycopg2
 from flask import send_from_directory
 import os
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import  accuracy_score, classification_report
+from sklearn.metrics import log_loss
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import roc_curve, RocCurveDisplay, auc
 
 #### import model 
 model = pickle.load(open("app/finalized_model.sav", "rb"))
