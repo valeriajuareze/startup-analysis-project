@@ -4,6 +4,7 @@ import pickle
 import psycopg2
 from flask import send_from_directory
 import os
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
