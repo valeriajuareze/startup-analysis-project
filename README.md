@@ -143,3 +143,13 @@ To answer the last question **Does the percentual change of annual GDP by state 
 ![image](https://user-images.githubusercontent.com/108365182/206584342-40848a88-c989-486b-8d8d-630e86fa17aa.png)
 
 As the model says for the result of p-value= 0.728, we reject our null hypothesis because our significance level is 0.05, so we can conclude that there is enough statistical evidence to say that the success of a startup does not depends on the percentual change of annual GDP.
+
+## Recommendations for Future Analysis
+
+For future analysis, our recommendations are the following ones:
+
+- Look for a larger dataset to improve the analysis
+- Gather more data
+- Try different features or approaches
+
+
